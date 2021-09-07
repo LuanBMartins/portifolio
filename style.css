@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: rgba(27, 27, 27, 0.897);;
+    color: rgb(250, 250, 250);
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(206, 0, 0);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header div h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    margin-right: 50px;
+    color: #f39a5b;
+}
+
+header img {
+    border-radius: 100px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    
+    border-bottom: 1px solid #f39a5b;
+    border-top: 1px solid #f39a5b;
+    border-radius: 5px;
+}
+
+nav div {
+    padding: 10px 20px 5px 5px;
+}
+
+nav div a img {
+    width: 22px;
+}
+
+.academico {
+    margin-top: 20px;
+    padding: 0px 10px 10px 10px;
+    color: #f39a5b;
+
+    border: 1px solid #f39a5b;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;    
+}
+
+.academico .titulo {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgba(27, 27, 27);
+}
+
+.academico .academico-content{
+
+    display: flex;
+    justify-content: center;
+} 
+
+.academico-content a img {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.universidade {
+    display: flex;
+    align-items: center;
+}
+
+.escola {
+    display: flex;
+    align-items: center;
+}
+
+.academico .academico-content div{
+    margin-left: 30px;
+    display: flex;
+    justify-items: center;
+} 
+
+.interesses {
+    margin-top: 20px;
+    color: #f39a5b;
+    border: 1px solid #f39a5b;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;  
+}
+
+.interesses .titulo {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgba(27, 27, 27);
+}
+
+.interesse-content {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.interesse-list {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hobbies {
+    margin-top: 20px;
+    color: #f39a5b;
+    border: 1px solid #f39a5b;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;  
+}
+
+.hobbies .titulo {
+   margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    color: rgb(27, 27, 27);
+}
+
+.hobbies-content {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.hobbies-content div p{
+    margin: 10px;
+}
+
+.lol {
+    width: 350px;
+    border-radius: 100px;
+}
+
+
+
+
+
